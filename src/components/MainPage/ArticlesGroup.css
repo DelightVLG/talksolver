@@ -1,0 +1,6 @@
+.articles-group {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 67px;
+  box-sizing: border-box;
+}
