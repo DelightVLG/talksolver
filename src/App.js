@@ -1,14 +1,15 @@
+import React from 'react';
 import './App.css';
 import Header from './components/Header/Header';
+import MainPage from './components/MainPage/MainPage'
 import Footer from './components/Footer/Footer'
-import React from 'react';
 
 function App() {
   return (
     <div className="page">
       <div className="page__container">
         <Header />
-        {/*MainPage />*/}
+        <MainPage />
         {/*OurHistory />*/}
         {/*AboutUs />*/}
         {/*ContactUs/>*/}
