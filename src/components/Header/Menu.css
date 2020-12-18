@@ -1,9 +1,31 @@
 .menu {
   display: flex;
-  width: 300px;
   justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  margin-left: 100px;
 }
 
 .menu__link {
-  color: aquamarine;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  margin-right: 30px;
+  letter-spacing: 0.2px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.menu__link_type_accent {
+  color: #5200D7;
+  text-decoration-line: underline;
+}
+
+.menu__link:hover {
+  opacity: 0.6;
+  box-shadow: 10px;
+}
+
+.menu__link:last-of-type {
+  margin-right: 0;
 }
