@@ -9,8 +9,7 @@ import Sociallinks from './Sociallinks';
 function Footer() {
   return (
     <footer className="footer">
-      <div className="footer__container">
-        <nav>
+      <nav>
           <ul className="footer__nav">
             <li className="footer__nav-link">Main page</li>
             <li className="footer__nav-link">About us</li>
@@ -23,8 +22,8 @@ function Footer() {
             <li className="footer__nav-link">Security</li>
             <Sociallinks className="footer__nav-social-links" />
           </ul>
-        </nav>
-      </div>
+      </nav>
+
       <p className="footer__fopyright">© 2020 “COMPANY NAME”, Inc., “COMPANY NAME”, “COMPANY NAME”, “COMPANY NAME”
        logo are trademarks or registered trademarks of “COMPANY NAME”, Inc. in the
        US and the rest of the world. All rights reserved.</p>
