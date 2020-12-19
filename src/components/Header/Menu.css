@@ -23,7 +23,6 @@
 
 .menu__link:hover {
   opacity: 0.6;
-  box-shadow: 10px;
 }
 
 .menu__link:last-of-type {
