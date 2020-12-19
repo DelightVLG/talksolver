@@ -31,6 +31,13 @@
   padding: 15px 100px;
   background-color: #5200D7;
   color: #fff;
+  border: none;
+}
+
+.heading-article__button:hover {
+  cursor: pointer;
+  /*Получить от дизайнеров эффект при наведении*/
+  opacity: .6;
 }
 
 .heading-article__image {
