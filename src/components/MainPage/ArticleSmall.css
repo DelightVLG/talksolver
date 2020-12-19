@@ -3,6 +3,8 @@
   flex-direction: column;
   align-items: center;
   max-width: 350px;
+  padding-top: 67px;
+  padding-bottom: 38px;
 }
 
 .articles-group-item__img {
