@@ -24,7 +24,7 @@ function Footer() {
           </ul>
       </nav>
 
-      <p className="footer__fopyright">© 2020 “COMPANY NAME”, Inc., “COMPANY NAME”, “COMPANY NAME”, “COMPANY NAME”
+      <p className="footer__copyright">© 2020 “COMPANY NAME”, Inc., “COMPANY NAME”, “COMPANY NAME”, “COMPANY NAME”
        logo are trademarks or registered trademarks of “COMPANY NAME”, Inc. in the
        US and the rest of the world. All rights reserved.</p>
     </footer>
