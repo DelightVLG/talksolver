@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/talksolver/static/css/main.459c1596.chunk.css",
-    "main.js": "/talksolver/static/js/main.15190791.chunk.js",
-    "main.js.map": "/talksolver/static/js/main.15190791.chunk.js.map",
+    "main.css": "/talksolver/static/css/main.e6cd1892.chunk.css",
+    "main.js": "/talksolver/static/js/main.57bf80e7.chunk.js",
+    "main.js.map": "/talksolver/static/js/main.57bf80e7.chunk.js.map",
     "runtime-main.js": "/talksolver/static/js/runtime-main.2d760ecf.js",
     "runtime-main.js.map": "/talksolver/static/js/runtime-main.2d760ecf.js.map",
-    "static/js/2.e594f654.chunk.js": "/talksolver/static/js/2.e594f654.chunk.js",
-    "static/js/2.e594f654.chunk.js.map": "/talksolver/static/js/2.e594f654.chunk.js.map",
+    "static/js/2.4f4db4a0.chunk.js": "/talksolver/static/js/2.4f4db4a0.chunk.js",
+    "static/js/2.4f4db4a0.chunk.js.map": "/talksolver/static/js/2.4f4db4a0.chunk.js.map",
     "index.html": "/talksolver/index.html",
-    "static/css/main.459c1596.chunk.css.map": "/talksolver/static/css/main.459c1596.chunk.css.map",
-    "static/js/2.e594f654.chunk.js.LICENSE.txt": "/talksolver/static/js/2.e594f654.chunk.js.LICENSE.txt",
+    "static/css/main.e6cd1892.chunk.css.map": "/talksolver/static/css/main.e6cd1892.chunk.css.map",
+    "static/js/2.4f4db4a0.chunk.js.LICENSE.txt": "/talksolver/static/js/2.4f4db4a0.chunk.js.LICENSE.txt",
     "static/media/Logo.css": "/talksolver/static/media/LOGO.ffa40388.svg",
     "static/media/be.6480f43f.svg": "/talksolver/static/media/be.6480f43f.svg",
     "static/media/CensorModule.css": "/talksolver/static/media/directionArrow.ac77ff06.svg",
@@ -25,8 +25,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.2d760ecf.js",
-    "static/js/2.e594f654.chunk.js",
-    "static/css/main.459c1596.chunk.css",
-    "static/js/main.15190791.chunk.js"
+    "static/js/2.4f4db4a0.chunk.js",
+    "static/css/main.e6cd1892.chunk.css",
+    "static/js/main.57bf80e7.chunk.js"
   ]
 }
