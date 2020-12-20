@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/talksolver/static/css/main.459c1596.chunk.css",
+    "main.js": "/talksolver/static/js/main.15190791.chunk.js",
+    "main.js.map": "/talksolver/static/js/main.15190791.chunk.js.map",
+    "runtime-main.js": "/talksolver/static/js/runtime-main.2d760ecf.js",
+    "runtime-main.js.map": "/talksolver/static/js/runtime-main.2d760ecf.js.map",
+    "static/js/2.e594f654.chunk.js": "/talksolver/static/js/2.e594f654.chunk.js",
+    "static/js/2.e594f654.chunk.js.map": "/talksolver/static/js/2.e594f654.chunk.js.map",
+    "index.html": "/talksolver/index.html",
+    "static/css/main.459c1596.chunk.css.map": "/talksolver/static/css/main.459c1596.chunk.css.map",
+    "static/js/2.e594f654.chunk.js.LICENSE.txt": "/talksolver/static/js/2.e594f654.chunk.js.LICENSE.txt",
+    "static/media/Logo.css": "/talksolver/static/media/LOGO.ffa40388.svg",
+    "static/media/be.6480f43f.svg": "/talksolver/static/media/be.6480f43f.svg",
+    "static/media/CensorModule.css": "/talksolver/static/media/directionArrow.ac77ff06.svg",
+    "static/media/fb.ad64a7ab.svg": "/talksolver/static/media/fb.ad64a7ab.svg",
+    "static/media/in.4d3fa4d3.svg": "/talksolver/static/media/in.4d3fa4d3.svg",
+    "static/media/insta.7c8a1503.svg": "/talksolver/static/media/insta.7c8a1503.svg",
+    "static/media/App.css": "/talksolver/static/media/montserrat-v15-latin-regular.fa100f9f.ttf",
+    "static/media/tempSVG1.ffa1e775.svg": "/talksolver/static/media/tempSVG1.ffa1e775.svg",
+    "static/media/tempSVG2.9f817485.svg": "/talksolver/static/media/tempSVG2.9f817485.svg",
+    "static/media/tempSVG3.6f560d06.svg": "/talksolver/static/media/tempSVG3.6f560d06.svg",
+    "static/media/temporary_img1.5e474bcb.jpeg": "/talksolver/static/media/temporary_img1.5e474bcb.jpeg",
+    "static/media/tvitter.7a3fae61.svg": "/talksolver/static/media/tvitter.7a3fae61.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2d760ecf.js",
+    "static/js/2.e594f654.chunk.js",
+    "static/css/main.459c1596.chunk.css",
+    "static/js/main.15190791.chunk.js"
+  ]
+}
