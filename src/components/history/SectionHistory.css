@@ -1,0 +1,49 @@
+.our-history__title {
+  color: #343434;
+  margin: 100px 0 0;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  letter-spacing: 0.1px;
+}
+.our-history__list {
+  list-style: none;
+  padding: 10px 0 100px;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1, 1fr;
+  justify-content: center;
+  gap: 80px;
+}
+
+.our-history__list-item {
+  margin: 0;
+  display: flex;
+  gap: 100px;
+}
+
+.our-history__list-item:nth-of-type(2){
+  flex-direction: row-reverse;
+}
+
+.our-history__description {
+  max-width: 472px;
+}
+
+.our-history__paragraph {
+  color: #858585;
+  margin: 0 0 30px;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+}
+.our-history__paragraph:last-of-type {
+  margin: 0;
+}
+
+.our-history__image {
+  background-color: gray;
+  width: 535px;
+  height: 440px;
+}
