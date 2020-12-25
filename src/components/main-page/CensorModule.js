@@ -44,7 +44,7 @@ function CensorModule() {
 
   return (
     <div className="censor">
-      <h2 className="censor__title">Выберите вашу проблему</h2>
+      <h2 className="censor__title" id="anchor01">Выберите вашу проблему</h2>
       <div className="censor__container">
         <div className="censor__input-container">
           <Select
