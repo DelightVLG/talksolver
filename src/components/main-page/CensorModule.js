@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import Select from 'react-select';
 import './CensorModule.css';
-import { groupedOptions } from '../../data/selectOptionData';
+import { groupedOptions } from '../../data/selectOptionData'
+import CensorModuleOutput from './CensorModuleOutput'
 
 const groupStyles = {
   display: 'flex',
@@ -33,30 +34,30 @@ function CensorModule() {
   const [selectedValue, setSelectedValue] = useState({});
 
   const handleChange = (evt) => {
-    setSelectedValue({id:evt.value, name:evt.label, text:evt.text, author:evt.author})
+    setSelectedValue({
+      id:evt.value,
+      name:evt.label,
+      text:evt.text,
+      author:evt.author,
+      keyWords: evt.keyWords,})
   }
 
   return (
     <div className="censor">
-      <h2 className="censor__title">Выберите то, что нужно перевести</h2>
+      <h2 className="censor__title">Выберите вашу проблему</h2>
       <div className="censor__container">
         <div className="censor__input-container">
           <Select
-            // defaultValue={flat[1]}
+            // defaultValue={flat[0]}
             options={groupedOptions}
             formatGroupLabel={formatGroupLabel}
             onChange={handleChange}
+            className="react-select-container"
+            classNamePrefix="react-select"
+            placeholder="Что вас беспокоит..."
           />
         </div>
-        <div className="censor__direction-arrow"/>
-        <div className="censor__output-container">
-          <p className="censor__output-text-container">
-            {selectedValue.author}
-            <br />
-            <br />
-            {selectedValue.text}
-          </p>
-        </div>
+        <CensorModuleOutput selectedValue={selectedValue}/>
       </div>
     </div>
   )
