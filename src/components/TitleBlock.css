@@ -11,10 +11,11 @@
 
 .title-block__content-container {
   width: 696px;
-  height: 318px;
+  min-height: 318px;
   padding: 20px 60px 20px 100px;
   box-sizing: border-box;
   backdrop-filter: blur(30px);
+  background: rgba(255, 255, 255, 0.4);
 }
 
 
