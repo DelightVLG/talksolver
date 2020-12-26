@@ -4,7 +4,7 @@ import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 const classNames = require('classnames');
 
-function TitleBlock({title, textContent, backgroundImg, enableBtn}) {
+function TitleBlock({ title, textContent, backgroundImg, enableBtn }) {
 
   return (
     <div className="title-block" style={{ backgroundImage: `url(${backgroundImg})` }}>

@@ -1,11 +1,12 @@
 import React from 'react';
 import './MainPage.css';
 import CensorModule from './CensorModule';
-import Subscribe from './Subscribe';
+import Feedback from './Feedback';
 import TitleBlock from '../TitleBlock';
 import { titleBlockMainData } from '../../data/titleBlockData';
 import ArticleSmall from '../ArticleSmall'
 import { articleSmallExact, articleSmallFast, articleSmallProtect } from '../../data/articleSmallData';
+import MainSlider from './MainSlider'
 
 function MainPage() {
   return (
@@ -32,8 +33,8 @@ function MainPage() {
       </div>
 
       <CensorModule />
-    {/* Здесь будет react slider*/}
-      <Subscribe />
+      <MainSlider />
+      <Feedback />
     </div>
   )
 }
