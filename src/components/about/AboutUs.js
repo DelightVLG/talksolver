@@ -1,6 +1,6 @@
 import React from 'react';
 import './AboutUs.css';
-import TitleBlock from './TitleBlock.js'
+// import TitleBlock from './TitleBlock.js' !! Надо поменять путь
 import Workers from './Workers.js'
 import nothing from '../../images/nothing.png';
 
@@ -8,7 +8,7 @@ import nothing from '../../images/nothing.png';
 function AboutUs() {
   return (
     <div className="about">
-      <TitleBlock />
+      {/*<TitleBlock />*/}
       <Workers />
 
       <div className="about__addition">
