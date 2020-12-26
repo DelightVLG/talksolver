@@ -1,7 +1,7 @@
 import React from 'react';
 import './OurHistory.css';
 // import TitleBlock from './TitleBlock.js'; !! Надо поменять путь
-import ArticlesGroup from './ArticlesGroup';
+// import ArticlesGroup from './ArticlesGroup';
 import SectionHistory from './SectionHistory';
 import Manifesto from './Manifesto';
 
@@ -10,7 +10,7 @@ function OurHistory() {
   return (
     <div className="history">
       {/*<TitleBlock />*/}
-      <ArticlesGroup />
+      {/*<ArticlesGroup />*/}
       <SectionHistory />
       <Manifesto />
     </div>

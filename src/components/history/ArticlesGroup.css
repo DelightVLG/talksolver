@@ -1,7 +1,0 @@
-.articles-group {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 67px 165px 0;
-  box-sizing: border-box;
-}
