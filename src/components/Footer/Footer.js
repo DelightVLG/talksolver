@@ -1,5 +1,8 @@
 import React from 'react';
 import './Footer.css';
+
+import { NavLink } from 'react-router-dom';
+
 import Sociallinks from './Sociallinks';
 
 
@@ -9,12 +12,20 @@ function Footer() {
   return (
     <footer className="footer">
       <nav>
-          <ul className="footer__nav">
-            <li className="footer__nav-link">Главная</li>
-            <li className="footer__nav-link">Наша миссия</li>
-            <li className="footer__nav-link">О нас</li>
-            <li className="footer__nav-link">Контакты</li>
-          </ul>
+        <ul className="footer__nav">
+
+         <NavLink exact to="/" onClick={() => {window.scrollTo({top: 0, behavior: "smooth"})}}
+                  className="footer__nav-link">Главная</NavLink>
+
+          <NavLink to="/history" onClick={() => {window.scrollTo({top: 0, behavior: "smooth"})}}
+                  className="footer__nav-link">Наша история</NavLink>
+
+          <NavLink to="/about" onClick={() => {window.scrollTo({top: 0, behavior: "smooth"})}}
+                  className="footer__nav-link">О нас</NavLink>
+
+          <NavLink to="/contact" onClick={() => {window.scrollTo({top: 0, behavior: "smooth"})}}
+                  className="footer__nav-link">Контакты</NavLink>
+        </ul>
       </nav>
 
       <Sociallinks />
