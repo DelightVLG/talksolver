@@ -1,4 +1,4 @@
-.feedback {
+.contact-feedback {
   padding: 100px 165px 110px;
   display: flex;
   flex-direction: row;
@@ -6,7 +6,7 @@
   align-items: center;
 }
 
-.feedback__title {
+.contact-feedback__title {
   margin: 0 0 30px;
   text-align: left;
   font-style: normal;
