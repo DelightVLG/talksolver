@@ -1,6 +1,7 @@
 import titleBlockMainDataBgrImage from '../images/title-block-main-bgr.svg';
 import titleBlockHistoryDataBgrImage from '../images/title-block-history-bgr.svg';
 import titleBlockAboutDataBgrImage from '../images/title-block-about-bgr.svg';
+import titleBlockContactDataBgrImage from '../images/title-block-contact-bgr.svg';
 
 const titleBlockMainData = {
   title: 'Привет!',
@@ -27,9 +28,11 @@ const titleBlockAboutData = {
 };
 
 const titleBlockContactData = {
-  title: '',
-  textContent: '',
-  image: '*'
+  title: 'Контакты',
+  textContent: 'Если у вас возники вопросы либо вы не нашли ответ на свою проблему, пожалуйста, свяжитесь с нами! ' +
+    'Мы ответим вам в течении 1 часа. ' +
+    'Также вы можете заказать обратный звонок указав свои данные.',
+  bgrImage: titleBlockContactDataBgrImage,
 };
 
 export {
