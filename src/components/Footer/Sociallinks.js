@@ -4,7 +4,6 @@ import './Sociallinks.css';
 import fb from '../../images/fb.svg';
 import insta from '../../images/insta.svg';
 import inn from '../../images/in.svg';
-import be from '../../images/be.svg';
 import tvitter from '../../images/tvitter.svg';
 
 
@@ -22,10 +21,6 @@ function Sociallinks() {
 
         <li className="social-links__item">
           <img src={inn} alt="in" />
-        </li>
-
-        <li className="social-links__item">
-          <img src={be} alt="be" />
         </li>
 
         <li className="social-links__item">
