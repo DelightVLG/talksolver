@@ -7,7 +7,7 @@ import { titleBlockMainData } from '../../data/titleBlockData';
 import ArticleSmall from '../ArticleSmall'
 import { articleSmallExact, articleSmallFast, articleSmallProtect } from '../../data/articleSmallData';
 
-function MainPage () {
+function MainPage() {
   return (
     <div className="main-page">
       <TitleBlock

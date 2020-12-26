@@ -6,7 +6,6 @@
   box-sizing: border-box;
 }
 
-
 .articles-group__item {
   display: flex;
   flex-direction: column;
@@ -20,7 +19,7 @@
   margin-bottom: 22px;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 .articles-group-item__title {
