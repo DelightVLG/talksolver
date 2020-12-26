@@ -50,6 +50,10 @@
   text-align: center;
 }
 
+.tile-block__anchor-btn:hover {
+  opacity: .7;
+}
+
 .tile-block__anchor-btn_is-hidden {
   visibility: hidden;
 }
