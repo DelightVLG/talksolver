@@ -19,9 +19,9 @@ function Footer() {
 
       <Sociallinks />
 
-      <p className="footer__copyright">© 2020 “COMPANY NAME”, Inc., “COMPANY NAME”, “COMPANY NAME”, “COMPANY NAME”
-       logo are trademarks or registered trademarks of “COMPANY NAME”, Inc. in the
-       US and the rest of the world. All rights reserved.</p>
+      <p className="footer__copyright">© TalkSolver, Inc., 2020 г. TalkSolver, логотип TalkSolver являются
+      товарными знаками или зарегистрированными товарными знаками TalkSolver, Inc.
+      в США и всём остальном мире. Все права сохранены.</p>
     </footer>
   )
 }
