@@ -1,4 +1,5 @@
 import titleBlockMainDataBgrImage from '../images/title-block-main-bgr.svg';
+import titleBlockHistoryDataBgrImage from '../images/title-block-history-bgr.svg';
 
 const titleBlockMainData = {
   title: 'Привет!',
@@ -10,9 +11,11 @@ const titleBlockMainData = {
 };
 
 const titleBlockHistoryData = {
-  title: '',
-  textContent: '',
-  bgrImage: '*'
+  title: 'Наша миссия',
+  textContent: 'Наш проект помогает защитить общественную мораль, поскольку к рассмотрению ' +
+    'принимаются только обращения, написанные с цитатами из произведений  классиков. Поэтому ' +
+    'мы создали сервис, который поможет переформулировать обычную речь в цитату писателей.',
+  bgrImage: titleBlockHistoryDataBgrImage,
 };
 
 const titleBlockAboutData = {
@@ -31,4 +34,5 @@ export {
   titleBlockMainData,
   titleBlockAboutData,
   titleBlockContactData,
-  titleBlockHistoryData };
+  titleBlockHistoryData
+};

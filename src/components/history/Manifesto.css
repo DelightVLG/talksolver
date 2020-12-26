@@ -3,14 +3,20 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
+  position: relative;
 }
 
+.manifesto__flower {
+  position: absolute;
+  top: 350px;
+  z-index: -1;
+}
 
 .manifesto__title {
   margin: 0;
-  font-weight: bold;
-  font-size: 48px;
-  line-height: 56px;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 44px;
   text-align: center;
   letter-spacing: 0.1px;
   color: #343434;
@@ -23,13 +29,15 @@
   margin: 0;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, minmax(min-content, max-content));
+  grid-auto-flow: column;
   row-gap: 30px;
-  column-gap: 42px;
+  column-gap: 220px;
 }
 
 .manifesto__subtitle {
-  font-weight: bold;
-  font-size: 18px;
+  font-weight: 500;
+  font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.1px;
   color: #343434;
