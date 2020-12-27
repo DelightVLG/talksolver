@@ -18,9 +18,9 @@ function Contact() {
         enableBtn={false} />
 
 
-      <div className="feedback">
-        <div className="feedback__container">
-          <h2 className="feedback__title">Форма обратной связи</h2>
+      <div className="contact-feedback">
+        <div className="contact-feedback__container">
+          <h2 className="contact-feedback__title">Форма обратной связи</h2>
           <Formik
           initialValues={{ nameUser: "", phoneUser: "", textArea: "" }}
           onSubmit={async values => {
