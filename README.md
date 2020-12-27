@@ -11,9 +11,9 @@
 
 Алексей Логвенкин 
 
-### [Ссылка на проект:](https://delightvlg.github.io/talksolver/)
+### [Ссылка на проект](https://delightvlg.github.io/talksolver/)
 
-### [Макет FIGMA:](https://www.figma.com/file/CiSXP9BagAKU0K5lKumtID/hackathon_2025?node-id=0%3A1)
+### [Макет FIGMA](https://www.figma.com/file/CiSXP9BagAKU0K5lKumtID/hackathon_2025?node-id=238%3A4116)
 
 
 ### Установка
@@ -22,6 +22,8 @@
 
 ```
 npm install
+
+npm start
 ```
 
 **Используемые технологии:**
