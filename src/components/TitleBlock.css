@@ -1,5 +1,5 @@
 .title-block {
-  background-color: rgba(82, 0, 215, 0.06);
+  background-color: #F4F3F8;
   background-repeat: no-repeat;
   background-position: right;
   background-position-x: 97%;
@@ -16,12 +16,14 @@
   box-sizing: border-box;
   backdrop-filter: blur(30px);
   background: rgba(255, 255, 255, 0.4);
+  border-radius: 10px;
 }
 
 
 .title-block__title {
-  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  font-family: "Playfair Display", serif;
   font-size: 72px;
+  font-weight: 700;
   line-height: 1.1;
   color: #343434;
 }
@@ -33,6 +35,7 @@
   font-size: 18px;
   line-height: 1.5;
   color: #858585;
+  white-space: pre-line;
 }
 
 .tile-block__anchor-btn {
