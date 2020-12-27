@@ -5,7 +5,7 @@ import titleBlockContactDataBgrImage from '../images/title-block-contact-bgr.svg
 
 const titleBlockMainData = {
   title: 'Привет!',
-  textContent: 'Мы команда TalkSolver. По новому закону 2025 года, для защиты ' +
+  textContent: 'Мы команда TalkSolver.\n По новому закону 2025 года, для защиты ' +
     'общественной нравственности к рассмотрению в какую-либо службу принимаются ' +
     'только обращения, написанные цитатами поэтов-классиков. Для этого мы создали ' +
     'данное приложение.',

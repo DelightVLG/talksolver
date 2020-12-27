@@ -38,7 +38,7 @@ function SamplePrevArrow(props) {
         width: 16,
         height: 32,
         top: '50%',
-        left: '0%',
+        left: '-3%',
       }}
       onClick={onClick}
     >

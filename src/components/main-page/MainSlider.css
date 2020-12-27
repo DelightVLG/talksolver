@@ -55,3 +55,7 @@
   position: absolute;
   cursor: pointer;
 }
+
+.slick-arrow:hover {
+  opacity: .7;
+}

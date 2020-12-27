@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import './Feedback.css';
 
 function Feedback() {
@@ -9,7 +10,12 @@ function Feedback() {
       <p className="feedback__subtitle">
         Запоните форму обратной связи и мы вам ответим в течении 1 часа.
       </p>
-      <a href="" className="feedback__btn">Написать</a>
+      <NavLink
+        to="/contact"
+        onClick={() => {window.scrollTo({top: 600, behavior: "smooth"})}}
+        className="feedback__btn">
+        Написать
+      </NavLink>
     </div>
 
   )
